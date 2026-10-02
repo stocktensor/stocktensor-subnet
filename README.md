@@ -7,8 +7,6 @@ Every forecast is signed by the miner that made it, every score can be
 recomputed from public data, and every validator epoch is published as a
 signed bundle whose hash is anchored on the Bittensor chain.
 
-- Website: https://stocktensor.io
-- Docs: https://docs.stocktensor.io
 - Protocol: [docs/PROTOCOL.md](docs/PROTOCOL.md) · Scoring: [docs/SCORING.md](docs/SCORING.md)
 - Run a miner: [docs/MINING.md](docs/MINING.md) · Run a validator: [docs/VALIDATING.md](docs/VALIDATING.md)
 
@@ -90,6 +88,15 @@ and [stocktensor-verify](https://github.com/stocktensor/stocktensor-verify).
 Change the scoring and those vectors must be regenerated
 (`uv run python scripts/gen_golden.py`) and `SCORING_VERSION` bumped.
 
+## Links
+
+- Website: https://stocktensor.io
+- Docs: https://docs.stocktensor.io
+- dApp: https://dapp.stocktensor.io
+- X: https://x.com/stocktensor
+- Telegram: https://t.me/stocktensorio
+- GitHub: https://github.com/stocktensor
+
 ## License
 
-MIT © 2026 Stocktensor
+MIT © 2026 StockTensor
