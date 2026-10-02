@@ -38,12 +38,12 @@ Flags worth knowing:
 # my_model.py
 from stocktensor.protocol import Forecast, ForecastRequest, format_price
 
+
 def predict(request: ForecastRequest, history: list[tuple[float, float]]) -> Forecast:
     reference = float(request.reference_price)
     # history = recent Chainlink rounds for request.asset as (unix_time, price)
     ...
-    return Forecast(low=format_price(lo), point=format_price(mid),
-                    high=format_price(hi), p_up="0.57")
+    return Forecast(low=format_price(lo), point=format_price(mid), high=format_price(hi), p_up="0.57")
 ```
 
 ```bash
