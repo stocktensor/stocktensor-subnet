@@ -1,0 +1,51 @@
+[
+ {
+  "value": {
+   "b": 1,
+   "a": "x",
+   "c": [
+    3,
+    2,
+    {
+     "z": null,
+     "y": true
+    }
+   ]
+  },
+  "canonical": "{\"a\":\"x\",\"b\":1,\"c\":[3,2,{\"y\":true,\"z\":null}]}",
+  "sha256": "89dbbfea5700efbaf25c1a74e151539f38602c77062b3caf25007c6cef37c349"
+ },
+ {
+  "value": {
+   "task_id": "abc",
+   "miner": "5Grw",
+   "forecast": {
+    "low": "1.5",
+    "point": "2",
+    "high": "2.5",
+    "p_up": "0.6"
+   }
+  },
+  "canonical": "{\"forecast\":{\"high\":\"2.5\",\"low\":\"1.5\",\"p_up\":\"0.6\",\"point\":\"2\"},\"miner\":\"5Grw\",\"task_id\":\"abc\"}",
+  "sha256": "e09beabdb1308d2722bf9e91086babd490fa7e686d03fc7576f8dc9c045f9c63"
+ },
+ {
+  "value": [],
+  "canonical": "[]",
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+ },
+ {
+  "value": {
+   "nested": {
+    "k": "v",
+    "a": [
+     1,
+     "2",
+     false
+    ]
+   }
+  },
+  "canonical": "{\"nested\":{\"a\":[1,\"2\",false],\"k\":\"v\"}}",
+  "sha256": "2933cc85c870b5b9530845606583b7c86ecb33c85f0d2a88fe7b40c92bdaad29"
+ }
+]

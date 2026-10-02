@@ -1,0 +1,96 @@
+{
+ "miner": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+ "validator": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
+ "task_id": "6f359e77dcc2166e1ac471a47bd7f47e",
+ "forecast": {
+  "low": "230.1",
+  "point": "236.5",
+  "high": "241.75",
+  "p_up": "0.61"
+ },
+ "forecast_message_hex": "7374782d666f7265636173742f310a66363264393539636435326334396232613638303263356334316237306132396565643439616137343635326364643661663838646633656334366530306335",
+ "forecast_signature": "0x281bc9bf8136ba9fd87cf22e02fe0967d832274cd81e76c8d8cc16424e22c717e746b883cd52a91552d860c83554bccf3f1aa3787dd1743fb31b1e0356bd6a80",
+ "bundle": {
+  "version": 1,
+  "scoring_version": 1,
+  "netuid": 0,
+  "validator": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
+  "epoch": 1,
+  "created_at": 1790003700,
+  "prev": "0000000000000000000000000000000000000000000000000000000000000000",
+  "tasks": [
+   {
+    "task_id": "6f359e77dcc2166e1ac471a47bd7f47e",
+    "asset": "NVDA",
+    "horizon": "1h",
+    "as_of": 1790000000,
+    "session": "overnight",
+    "feed": "0x379EC4f7C378F34a1B47E4F3cbeBCbAC3E8E9F15",
+    "reference": {
+     "round_id": "18446744073709552000",
+     "answer": "236.22797244",
+     "updated_at": 1789999990
+    },
+    "realised": {
+     "round_id": "18446744073709552007",
+     "answer": "237.1",
+     "updated_at": 1790003500
+    },
+    "void": null,
+    "responses": [
+     {
+      "miner": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+      "forecast": {
+       "low": "230.1",
+       "point": "236.5",
+       "high": "241.75",
+       "p_up": "0.61"
+      },
+      "signature": "0x281bc9bf8136ba9fd87cf22e02fe0967d832274cd81e76c8d8cc16424e22c717e746b883cd52a91552d860c83554bccf3f1aa3787dd1743fb31b1e0356bd6a80",
+      "error": null
+     }
+    ],
+    "scores": {
+     "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY": "1.000000"
+    }
+   }
+  ],
+  "rolling": {
+   "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY": "1.000000"
+  },
+  "weights": {
+   "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY": "1.000000"
+  },
+  "signature": "0x02288f8a5e72086c796355aeb32238cbadbcf65541ef168a507cf4cf43cb2a65f29de8c88b2d596b3059d1485d1e644726b7014d04f0a587a05323e17c16d184"
+ },
+ "bundle_hash": "fe81d1ff61f03825b385f4a82ba721dfe5581dd9b5596e8c4bc58c3d432be3df",
+ "bundle_message_hex": "7374782d62756e646c652f310a66653831643166663631663033383235623338356634613832626137323164666535353831646439623535393665386334626335386333643433326265336466",
+ "commitment": "stx1:1:fe81d1ff61f03825b385f4a82ba721dfe5581dd9b5596e8c4bc58c3d432be3df",
+ "chainlink_to_str": [
+  {
+   "answer": 23622797244,
+   "decimals": 8,
+   "expected": "236.22797244"
+  },
+  {
+   "answer": 100000000,
+   "decimals": 8,
+   "expected": "1"
+  },
+  {
+   "answer": 5,
+   "decimals": 8,
+   "expected": "0.00000005"
+  },
+  {
+   "answer": -123450000,
+   "decimals": 8,
+   "expected": "-1.2345"
+  },
+  {
+   "answer": 7,
+   "decimals": 0,
+   "expected": "7"
+  }
+ ]
+}
